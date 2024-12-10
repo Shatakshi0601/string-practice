@@ -8,7 +8,50 @@
 <body>
     <script>
     let text="dhdhfbjdjndnfnfns";
-    length=text.length;
+    console.log(text.length);
+    console.log(text.charAt(0));
+    console.log(text.charCodeAt(0));
+    console.log(text.at(0));
+    console.log(text[0]);
+    let fruit="Apple, Banana, kiwi";
+    console.log(fruit.slice(7,13));
+    console.log(fruit.slice(7));
+    console.log(fruit.slice(-12));
+    console.log(fruit.slice(-12,-6));
+    console.log(fruit.substring(7,13));
+    console.log(fruit.substr(7,13));
+    console.log(fruit.substr(-4));
+    console.log(fruit.toLowerCase());
+    console.log(fruit.toUpperCase());
+    let text1= "Mango";
+    console.log(fruit.concat(" ", text1));
+    let text2 = "      Hello World!      ";
+    console.log(text2.trim());
+    console.log(text2.trimStart());
+    console.log(text2.trimEnd());
+    let text3 = "5";
+    console.log(text3.padStart(4,"0"));
+    console.log(text3.padStart(4,"x"));
+    console.log(text3.padEnd(4,"0"));
+    let text4 = "Hello world!";
+    console.log(text4.repeat(2));
+    console.log(text4.replace("world","Heeba"));
+    let text5 = "I love cats. Cats are very easy to love. Cats are very popular."
+    console.log(text5.replaceAll("Cats","Dogs"));
+    console.log(text5.replaceAll("cats","dogs"));
+    console.log(fruit.split(","));
+    
+    
+
+
+
+
+
+
+
+
+
+
 </script>
 </body>
 </html>
